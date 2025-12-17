@@ -1,0 +1,163 @@
+/* @media conition {
+    CSS rules here 
+}
+@media(max-width) {
+    body {
+        background:;
+     }
+}
+320-small phone
+480-large phone
+768-tablet
+1024-small laptop  
+1200+-desktop */
+/* @media (max-width: 768px) {
+    p{
+        font-size: 25px;
+        background-color: blue;
+    }
+} */
+/* .box{
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
+/* @media (min-width: 768px) {
+    .box{
+        background-color: red;
+    }
+}
+@media (min-width: 768px) {
+    .li{
+        list-style: none;
+        text-decoration: none;
+    }
+}
+nav ul{
+   display: flex;
+   justify-content: space-around;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgrey;
+        text-decoration: none;
+    }  
+}
+div ul{
+    list-style: none;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .ul li{
+        display: none;
+        font-size: 20px;
+        color: rgb(225, 2, 2);
+    }
+} */
+ /* @media (max-width: 768px) {
+    
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #d80808;
+        padding: 1rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .menu a{
+        display: none;
+        flex-direction: column;
+        background: #07ff28;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+    }
+    .hamburger{
+        display: block;
+        font-size: 2rem;
+        color: #1100ff;
+        cursor: pointer;
+    }
+} */
+/* tablet & desktop */
+/* @media (min-width: 768px) {
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: #d80808 ;
+        width: 2rem;
+    }
+} */ 
+/* @media (min-width: 768px) {
+    .body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 1rem;
+    }
+    .logo{
+        color: white;
+        font-size: 1.5rem;
+    }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+    }
+    .menu a{
+        color: white;
+        padding: 1em;
+        text-decoration: none;
+        display: block;
+    }
+    .hamburger{
+        font-size: 2rem;
+        color: white;
+        cursor: pointer;
+    }
+} */
+/* tablet and desktop */
+/* @media (min-width: 768px) {
+    .menu{
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        width: auto;
+        float: right;
+    }
+    .hamburger{
+        display: none;
+    }
+} */
+/* div{
+    width: 100px;
+    height: 50px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 20px;
+} */
+/* property:box-sizing: border-box; */
