@@ -25,4 +25,22 @@
 
 
 
-// create an argument function to check whether the given integers are positive
+// WAP to check whether the given vector are divisible by 3 or 5 using auto function
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+// 	// your code goes here
+//     vector<int> v={36,15,17,18,21,25,55,100,200,550};
+//     int count=0;
+//     for(auto i:v){
+//         if(i%3==0 || i%5==0)
+//         cout<<i<<endl;
+//         count++;
+//     }
+// }
+
+
+
+
+// 
