@@ -83,22 +83,31 @@ private:
     double salary;
 
 public:
+    string name;
+    string subject;
+    string dept;
+
     // non-parameterized
-    teacher(){
-        dept="CSE";
-    }
+    // teacher(){
+    //     dept="CSE";
+    // }
 
     // Parameterized constructor
-    teacher(string n, string d, string s, double sal){
-        this->name=n;  //This (->) pointer
-        dept=d;
-        salary=sal;
-        subject=s;
+    teacher(string name, string dept, string subject, double salary){
+        this->name=name;  //This (->) pointer
+        this->dept=dept;
+        this->salary=salary;
+        this->subject=subject;
     }
-    string name;
-    string dept;
-    string subject;
-
+    
+    // Copy Constructor
+    teacher(teacher &obj){ //pass by reference
+        cout<<"I am custom copy Constructor"<<endl;
+        this->name=obj.name;
+        this->dept=obj.dept;
+        this->salary=obj.salary;
+        this->subject=obj.subject;
+    }
     void getInfo(){
         cout<<"name: "<< name <<endl;
         cout<<"Subject: "<< subject << endl;
@@ -108,5 +117,8 @@ public:
 int main() {
     teacher t1("karan", "CS", "CS", 50000);
     t1.getInfo();
+
+    teacher t2(t1); // custom Copy constructor
+    t2.getInfo();
     return 0;
 }

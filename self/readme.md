@@ -29,14 +29,24 @@
 <!-- Types of constructors -->
 1. Non-parameterized Constructor
     eg:-
-    teacher(){
-        dept="CS";
-    }
+        teacher(){
+            dept="CS";
+        }
 2. Parameterized Constructor
     eg:-
-    teacher(string n; string d; string s; double sal;){
-        dept="CS";
-    }
+        teacher(string n; string d; string s; double sal;){
+            dept="CS";
+        }
+3. Copy Constructor
+    -> special constructor to copy properties of one object to another
+    eg:-
+        teacher t1("karan", "CS", "CS", 50000);
+        t1.getInfo();
+        teacher t2(t1);
+        t2.getInfo();
+    <!-- Types of copy created by copy constructor -->
+    1. Shallow copy: copies all of the member values for one object to another
+    2. Deep Copy: not only copies the member values but also makes copies of any dynamically allocated memory that the members point to
 
 # this (->) Pointer
 
